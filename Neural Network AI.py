@@ -19,7 +19,7 @@ xy = np.array([-13, -8, 3, 2, 7, 12])
 
 model.fit(xs, xy, epochs=100, callbacks=[TensorBoard])
 
-print(model.predict(np.arry([10], dtype=int)))
+print(model.predict(np.array([10], dtype=int)))
 print(layer.get_weights())
 
 
